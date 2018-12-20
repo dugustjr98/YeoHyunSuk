@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fdc5b1a-aed8-4415-8765-d4136cc64036" name="Default Changelist" comment="" />
+    <list default="true" id="8fdc5b1a-aed8-4415-8765-d4136cc64036" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/FriendExam01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/FriendManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/FriendManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SoloExam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SoloExam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SoloExam/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SoloExam/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/Friend.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/Friend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/StringExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/StringExam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../namecard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../namecard/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/my/eamples/javaexam/Goods/Goods.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="389">
@@ -20,6 +30,15 @@
                 <element signature="e#2253#2254#0" expanded="true" />
                 <element signature="e#2291#2292#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -314,11 +333,12 @@
       <workItem from="1544685837619" duration="11000" />
       <workItem from="1544695672443" duration="82000" />
       <workItem from="1544750066013" duration="623000" />
+      <workItem from="1545274968641" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33943000" />
+    <option name="totallyTimeSpent" value="33951000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,10 +350,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="730" y="0" width="710" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4311377" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43055555" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -624,16 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/eamples/javaexam/Goods/GoodsExam02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/eamples/javaexam/Lotto/LottoExam.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -655,13 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/my/eamples/javaexam/Goods/GoodsExam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" selection-start-line="3" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/my/eamples/javaexam/Goods/Goods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
@@ -670,6 +673,30 @@
             <element signature="e#2253#2254#0" expanded="true" />
             <element signature="e#2291#2292#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/eamples/javaexam/Goods/GoodsExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="5" selection-start-line="3" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/eamples/javaexam/Goods/GoodsExam02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
         </state>
       </provider>
     </entry>

@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25314fd6-3f2e-465f-825d-db94001f4946" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CodingTest/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FriendExam/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FriendExam/FriendExam01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FriendExam/FriendManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FriendExam/FriendTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FriendExam/FriendUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FriendExam/Friend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FriendExam/Friend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FriendExam/StringExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FriendExam/StringExam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../itj example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../itj example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../namecard/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../namecard/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../namecard/src/main/java/BusinessExam/BusinessCardUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../namecard/src/main/java/BusinessExam/BusinessCardUI.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,106 +26,59 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LottoBall/LottoExam01.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FriendExam/Friend.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+              <folding>
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FriendExam/StringExam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FriendExam/Data.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/CodingTest/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="22" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StudentEqToHc/Student.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding>
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#433#434#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#492#493#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-                <element signature="e#583#584#0" expanded="true" />
-                <element signature="e#610#611#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#671#672#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#793#794#0" expanded="true" />
-                <element signature="e#825#826#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StudentEqToHc/StudentExam01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/students/file/StudentsExam.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FriendExam/FriendManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="49" />
+            <state relative-caret-position="-28">
+              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LottoBall/BallsFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FriendExam/FriendUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LottoBall/KoreaLottoBallls.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FriendExam/FriendTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LottoBall/LottoMachine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="630">
+              <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,14 +87,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LottoBall/LottoBall.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/FriendExam/FriendExam01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-              <folding>
-                <element signature="e#106#107#0" expanded="true" />
-                <element signature="e#142#143#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="195">
+              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -153,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/Box.java" />
         <option value="$PROJECT_DIR$/src/main/java/Exam01.java" />
@@ -172,6 +129,15 @@
         <option value="$PROJECT_DIR$/src/main/java/LottoBall/KoreaLottoBallls.java" />
         <option value="$PROJECT_DIR$/src/main/java/LottoBall/LottoExam01.java" />
         <option value="$PROJECT_DIR$/src/main/java/CodingTest/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FriendExam/StringExam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FriendExam/Data.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FriendExam/Friend.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FriendExam/FriendManagerTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/FriendExam/FriendExam01.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FriendExam/FriendTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FriendExam/FriendManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FriendExam/FriendUI.java" />
       </list>
     </option>
   </component>
@@ -227,7 +193,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="CodingTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoloExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoloExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="FolderFileExam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SoloExam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SoloExam" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="FriendExam" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SoloExam" type="b2602c69:ProjectViewProjectNode" />
@@ -271,7 +253,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545269715798" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545277530580" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -291,26 +273,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LottoExam01">
-    <configuration name="FolderFileExam01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FolderFileExam.FolderFileExam01" />
+  <component name="RunManager" selected="JUnit.FriendTest.deleteFriend">
+    <configuration name="FriendExam01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FriendExam.FriendExam01" />
       <module name="SoloExam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FolderFileExam.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FolderFileExam02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FolderFileExam.FolderFileExam02" />
-      <module name="SoloExam" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FolderFileExam.*" />
+          <option name="PATTERN" value="FriendExam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -331,12 +300,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentExam01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StudentEqToHc.StudentExam01" />
+    <configuration name="StringExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FriendExam.StringExam" />
       <module name="SoloExam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StudentEqToHc.*" />
+          <option name="PATTERN" value="FriendExam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -344,26 +313,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentsExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="students.file.StudentsExam" />
+    <configuration name="FriendExam in SoloExam" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="SoloExam" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="students.file.*" />
+          <option name="PATTERN" value="FriendExam.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="FriendExam" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FriendTest.addFriend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoloExam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FriendExam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FriendExam" />
+      <option name="MAIN_CLASS_NAME" value="FriendExam.FriendTest" />
+      <option name="METHOD_NAME" value="addFriend" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FriendTest.deleteFriend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SoloExam" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FriendExam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="FriendExam" />
+      <option name="MAIN_CLASS_NAME" value="FriendExam.FriendTest" />
+      <option name="METHOD_NAME" value="deleteFriend" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FriendTest.deleteFriend" />
+        <item itemvalue="JUnit.FriendTest.addFriend" />
+        <item itemvalue="Application.FriendExam01" />
+        <item itemvalue="Application.StringExam" />
         <item itemvalue="Application.LottoExam01" />
-        <item itemvalue="Application.FolderFileExam02" />
-        <item itemvalue="Application.StudentExam01" />
-        <item itemvalue="Application.StudentsExam" />
-        <item itemvalue="Application.FolderFileExam01" />
       </list>
     </recent_temporary>
   </component>
@@ -402,17 +407,38 @@
       <workItem from="1544773762458" duration="939000" />
       <workItem from="1545009978433" duration="67000" />
       <workItem from="1545016472879" duration="40000" />
+      <workItem from="1545269649475" duration="294000" />
+      <workItem from="1545270132452" duration="4077000" />
+      <workItem from="1545274995576" duration="2810000" />
+      <workItem from="1545278714259" duration="84000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="FriendTest_addFriend - 2018.12.20 at 12h 07m 40s.xml">
+      <configuration name="FriendTest.addFriend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FriendTest_addFriend - 2018.12.20 at 12h 20m 16s.xml">
+      <configuration name="FriendTest.addFriend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FriendTest_addFriend - 2018.12.20 at 12h 36m 04s.xml">
+      <configuration name="FriendTest.addFriend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FriendTest_addFriend - 2018.12.20 at 12h 43m 50s.xml">
+      <configuration name="FriendTest.addFriend" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FriendTest_deleteFriend - 2018.12.20 at 12h 45m 16s.xml">
+      <configuration name="FriendTest.deleteFriend" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31131000" />
+    <option name="totallyTimeSpent" value="38396000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.49356222" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17638889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -421,8 +447,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30843374" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3078731" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39952996" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -431,7 +457,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32771084" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3266745" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -577,6 +603,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StudentEqToHc/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#465#466#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#671#672#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#729#730#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#793#794#0" expanded="true" />
+            <element signature="e#825#826#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StudentEqToHc/StudentExam01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/students/file/StudentsExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="49" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LottoBall/BallsFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -614,50 +682,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="22" selection-end-column="12" />
+        <state relative-caret-position="330">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StudentEqToHc/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FriendExam/FriendManagerTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/FriendExam/Friend.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="390">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding>
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#433#434#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#793#794#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StudentEqToHc/StudentExam01.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FriendExam/StringExam.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        <state relative-caret-position="135">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FriendExam/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FriendExam/FriendTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="14" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/students/file/StudentsExam.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FriendExam/FriendExam01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="49" />
+        <state relative-caret-position="195">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FriendExam/FriendUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FriendExam/FriendManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>

@@ -3,9 +3,6 @@ package BusinessExam;
 import java.util.Scanner;
 
 public class BusinessCardUI {
-    BusinessCardDAO businessCardDAO = new BusinessCardDAO();
-
-
 
     public BusinessCard inputCard(){
         Scanner scanner = new Scanner(System.in);
