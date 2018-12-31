@@ -69,7 +69,7 @@ public class BusinessCardDAO {
     public void saveCard(){
         try {
             ObjectMapper objectMapper = new ObjectMapper();
-            File file = new File("/tmp/businesscard.json");
+            File file = new File("/Users/yeohyeonseog/businesscard.json");
             objectMapper.writeValue(file, businessCardData);
         } catch (Exception ex) {
             System.out.println("저장 오류");
@@ -79,7 +79,7 @@ public class BusinessCardDAO {
 
         try {
             ObjectMapper objectMapper = new ObjectMapper();
-            File file = new File("/tmp/businesscard.json");
+            File file = new File("/Users/yeohyeonseog/businesscard.json");
             businessCardData = objectMapper.readValue(file, BusinessCardData.class);
         } catch (Exception ex) {
             System.out.println("읽기오류");

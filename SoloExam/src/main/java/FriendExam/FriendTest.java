@@ -37,7 +37,7 @@ public class FriendTest {
     }
     @Test
     public void deleteFriend() throws Exception{
-        boolean deleteCount = friendManager.deleteFriend("010-0000-0000");
+        boolean deleteCount = friendManager.deleteFriend();
         if(deleteCount == true){
             System.out.println("성공!");
         }else{

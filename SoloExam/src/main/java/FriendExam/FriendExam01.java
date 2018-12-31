@@ -13,7 +13,7 @@ public class FriendExam01 {
         friendManager.addFriend(friend2);
         friendManager.addFriend(friend3);
         friendManager.addFriend(friend4);
-        friendManager.deleteFriend("010-3586-9087");
+        friendManager.deleteFriend();
         System.out.println(friendManager.find());
         System.out.println(friendManager.friendNum());
         System.out.println(friendManager);
