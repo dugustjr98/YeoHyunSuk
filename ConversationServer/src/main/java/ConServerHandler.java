@@ -25,23 +25,54 @@ public class ConServerHandler extends Thread {
             while(true){
                String message = conUser.read();
                 if(!inRoom){
+                    conUser.write("로비 입니다.");
                     switch (message){
                         case "/create":{
                             String roomName="";
-                            conUser.write("방제목을 입력하세요 : ");
-                            roomName = conUser.read();
-                            conHouse.createRoom(conUser,roomName);
+                            String flag ="";
+                            String password;
+                            conUser.write("비밀번호방을 만드시겠습니까 ? (y/n)");
+                            flag = conUser.read().toUpperCase();
+                            if(flag.equals("Y")){
+                                conUser.write("방제목을 입력하세요 : ");
+                                roomName = conUser.read();
+                                conUser.write("비밀번호를 입력하시오 . :");
+                                password = conUser.read();
+                                conHouse.createPasswordRoom(conUser,roomName,password);
+
+                            }else if(flag.equals("N")){
+                                conUser.write("방제목을 입력하세요 : ");
+                                roomName = conUser.read();
+                                conHouse.createRoom(conUser,roomName);
+
+                            }else{
+                                conUser.write("방을 만들 수 없습니다.");
+                                break;
+                            }
 
                             inRoom =true;
                             break;
                         }
                         case "/join":{
+                            List<ConRoom> rooms = conHouse.getRooms();
                             String strRoomNum="";
+                            String password;
                             int roomNum=0;
                             conUser.write("입장할 방 번호를 입력하세요 : ");
                             strRoomNum = conUser.read();
                             roomNum = Integer.parseInt(strRoomNum);
-                            conHouse.joinRoom(roomNum,conUser);
+                            if(rooms.get(roomNum).getPassword()!=null){
+                                conUser.write("비밀번호를 입력하세요 . : ");
+                                password = conUser.read();
+                                if(rooms.get(roomNum).getPassword().equals(password)){
+                                    conHouse.joinRoom(roomNum, conUser,password);
+                                }else{
+                                    conUser.write("비밀번호가 틀렸습니다. 로비로 돌아갑니다.");
+                                    break;
+                                }
+                            }else {
+                                conHouse.joinRoom(roomNum, conUser);
+                            }
                             inRoom =true;
                             break;
                         }
