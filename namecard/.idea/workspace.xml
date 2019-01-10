@@ -2,19 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c25aaedc-8bd0-465e-9e7b-bdf869d5b99f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/FriendExam01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/FriendManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/FriendTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/FriendUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/RestaurantList/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/RestaurantList/RestaurantDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/RestaurantList/RestaurantData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/RestaurantList/RestaurantExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/RestaurantList/RestaurantUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/SoloCodeExam/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/SoloCodeExam/solutionExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ioexam/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ioexam/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ioexam/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ioexam/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ioexam/bytearray.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ioexam/bytearray2.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ioexam/google.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ioexam/ioexam.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ioexam/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webserverExam/src/main/java/my/examples/miniwebserver/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webserverExam/src/main/java/my/examples/miniwebserver/ChatUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../webserverExam/src/main/java/my/examples/miniwebserver/WebServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SoloExam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SoloExam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SoloExam/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SoloExam/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/Friend.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/Friend.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/StringExam.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/StringExam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../itj example/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../itj example/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SoloExam/src/main/java/CodingTest/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/FriendExam01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/FriendExam01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/FriendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SoloExam/src/main/java/FriendExam/FriendTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SoloExam/target/classes/CodingTest/Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SoloExam/target/classes/FriendExam/FriendExam01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SoloExam/target/classes/FriendExam/FriendExam01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SoloExam/target/classes/FriendExam/FriendManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SoloExam/target/classes/FriendExam/FriendManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SoloExam/target/classes/FriendExam/FriendTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SoloExam/target/classes/FriendExam/FriendTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardDAO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,7 +42,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCard.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
@@ -38,8 +54,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+            <state relative-caret-position="285">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-305">
-              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            <state relative-caret-position="1080">
+              <caret line="81" column="74" selection-start-line="81" selection-start-column="74" selection-end-line="81" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#336#337#0" expanded="true" />
@@ -64,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardExam01.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="180">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardFormat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="86" column="39" lean-forward="true" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+            <state relative-caret-position="1275">
+              <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,10 +136,10 @@
         <option value="$PROJECT_DIR$/src/test/java/my/examples/businesscard/JacksonTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardData.java" />
         <option value="$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardExam01.java" />
-        <option value="$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCard.java" />
         <option value="$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardFormat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardDAO.java" />
       </list>
     </option>
   </component>
@@ -135,9 +151,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="821" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -147,7 +162,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -199,12 +213,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545287088799" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545287245360" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -337,7 +352,12 @@
       <workItem from="1545270027088" duration="10000" />
       <workItem from="1545274980627" duration="12000" />
       <workItem from="1545278122507" duration="520000" />
-      <workItem from="1545278801495" duration="3684000" />
+      <workItem from="1545278801495" duration="3900000" />
+      <workItem from="1545288842527" duration="39000" />
+      <workItem from="1545289673548" duration="8000" />
+      <workItem from="1545367379151" duration="199000" />
+      <workItem from="1545962252802" duration="10000" />
+      <workItem from="1546232425930" duration="36000" />
     </task>
     <servers />
   </component>
@@ -368,12 +388,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31765000" />
+    <option name="totallyTimeSpent" value="32273000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20972222" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21244635" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -382,7 +403,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28084606" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28084606" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -417,36 +438,39 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/BusinessExam/JacksonTest.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="570">
+          <caret line="38" column="12" selection-start-line="10" selection-start-column="4" selection-end-line="38" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="43" column="34" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+        <state relative-caret-position="285">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        <state relative-caret-position="1080">
+          <caret line="81" column="74" selection-start-line="81" selection-start-column="74" selection-end-line="81" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#336#337#0" expanded="true" />
             <element signature="e#393#394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardExam01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -458,23 +482,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardExam01.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="1275">
+          <caret line="86" column="39" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCardFormat.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BusinessExam/BusinessCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="86" column="39" lean-forward="true" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="195">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>

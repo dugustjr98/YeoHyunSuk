@@ -19,7 +19,9 @@ public class ConHouse {
         ConRoom conRoom = new ConRoom(conUser,title,password);
         rooms.add(conRoom);
     }
-
+    public List<ConUser> getLobby() {
+        return lobby;
+    }
     public void addLobbyUser(ConUser conUser){
         lobby.add(conUser);
     }

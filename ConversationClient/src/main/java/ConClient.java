@@ -26,6 +26,8 @@ public class ConClient {
             conUser.setNickName(nickName);
             conUser.write(nickName);
             System.out.println(conUser.getNickName());
+            System.out.println("닉네임 : "+ nickName);
+            System.out.println("/help로 명령어 확인이 가능합니다.");
 
 
             ConClientHandler conClientHandler = new ConClientHandler(conUser);
