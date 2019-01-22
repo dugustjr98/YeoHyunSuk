@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="practice:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="806156a5-df1f-4a84-acb2-549ba5e21ae8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/jdbc/dao/BoardDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/jdbc/dao/BoardDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/jdbc/dao/BoardDaoSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/jdbc/dto/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/jdbc/exam/SelectListExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/jdbc/exam/SelectListExam02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/jdbc/exam/SelectOneExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/jdbc/exam/SelectOneExam2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/jdbc/exam/TransactionExam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/jdbc/service/BoardService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/jdbc/service/BoardServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/jdbc/servlet/DeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/jdbc/servlet/ListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/jdbc/servlet/ReadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/jdbc/servlet/WriteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/jdbc/util/ConnectionContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/my/examples/jdbc/util/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/datasource.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/writeForm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/my/examples/jdbc/dao/boardDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../firstWeb/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../firstWeb/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/java/my/example/firstweb/CookieGetServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/java/my/example/firstweb/CookieSetServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/java/my/example/firstweb/FormExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/java/my/example/firstweb/ForwardServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/java/my/example/firstweb/HelloServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/java/my/example/firstweb/RedirectServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/java/my/example/firstweb/ResultServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/java/my/example/firstweb/StarServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/java/my/example/firstweb/WriteServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/java/my/example/firstweb/webexample/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/java/my/example/firstweb/webexample/BoardList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/java/my/example/firstweb/webexample/BoardListServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/java/my/example/firstweb/webexample/FormtagServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/java/my/example/firstweb/webexample/MainServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/java/my/example/firstweb/webexample/ShowServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/webapp/WEB-INF/views/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../firstWeb/src/main/webapp/WEB-INF/views/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/webapp/WEB-INF/views/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../firstWeb/src/main/webapp/WEB-INF/views/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/webapp/WEB-INF/views/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../firstWeb/src/main/webapp/WEB-INF/views/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/src/main/webapp/WEB-INF/views/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../firstWeb/src/main/webapp/WEB-INF/views/show.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/classes/my/example/firstweb/CookieGetServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/classes/my/example/firstweb/CookieSetServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/classes/my/example/firstweb/FormExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/classes/my/example/firstweb/ForwardServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/classes/my/example/firstweb/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/classes/my/example/firstweb/RedirectServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/classes/my/example/firstweb/ResultServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/classes/my/example/firstweb/StarServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/classes/my/example/firstweb/WriteServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/classes/my/example/firstweb/webexample/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/classes/my/example/firstweb/webexample/BoardList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/classes/my/example/firstweb/webexample/BoardListServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/classes/my/example/firstweb/webexample/FormtagServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/classes/my/example/firstweb/webexample/MainServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/classes/my/example/firstweb/webexample/ShowServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/classes/my/example/firstweb/CookieGetServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/classes/my/example/firstweb/CookieSetServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/classes/my/example/firstweb/FormExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/classes/my/example/firstweb/ForwardServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/classes/my/example/firstweb/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/classes/my/example/firstweb/RedirectServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/classes/my/example/firstweb/ResultServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/classes/my/example/firstweb/StarServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/classes/my/example/firstweb/WriteServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/classes/my/example/firstweb/webexample/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/classes/my/example/firstweb/webexample/BoardList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/classes/my/example/firstweb/webexample/BoardListServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/classes/my/example/firstweb/webexample/FormtagServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/classes/my/example/firstweb/webexample/MainServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/classes/my/example/firstweb/webexample/ShowServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/views/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/views/hello.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/views/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/views/main.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/views/show.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../firstWeb/target/firstweb/WEB-INF/views/show.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/dao/BoardDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/servlet/ListServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/servlet/DeleteServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/service/BoardServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/servlet/ReadServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/view.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/servlet/WriteServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/writeForm.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/util/ConnectionContextHolder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/my/examples/jdbc/exam/SelectOneExam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/examples/jdbc/exam/SelectListExam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/examples/jdbc/exam/SelectOneExam2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/examples/jdbc/exam/SelectListExam02.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/write.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/writeForm.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/delete.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/my/examples/jdbc/servlet/DeleteServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/my/examples/jdbc/dto/Board.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/view.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/my/examples/jdbc/dao/BoardDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/examples/jdbc/service/BoardSevice.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/examples/jdbc/util/ConnectionContextHolder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/examples/jdbc/exam/TransactionExam.java" />
+        <option value="$PROJECT_DIR$/src/test/java/my/examples/jdbc/dao/boardDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/datasource.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/my/examples/jdbc/util/DBUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/examples/jdbc/servlet/WriteServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/examples/jdbc/service/BoardService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/examples/jdbc/service/BoardServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/examples/jdbc/servlet/ListServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/examples/jdbc/dao/BoardDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/my/examples/jdbc/servlet/ReadServlet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="718" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="exam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jdbc" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547701014893" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="my.examples.jdbc.servlet" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.server">
+    <configuration name="SelectListExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my.examples.jdbc.exam.SelectListExam" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.examples.jdbc.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectListExam02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my.examples.jdbc.exam.SelectListExam02" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.examples.jdbc.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectOneExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my.examples.jdbc.exam.SelectOneExam" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.examples.jdbc.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectOneExam2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="my.examples.jdbc.exam.SelectOneExam2" />
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.examples.jdbc.exam.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="boardDaoTest.list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.examples.jdbc.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="my.examples.jdbc.dao" />
+      <option name="MAIN_CLASS_NAME" value="my.examples.jdbc.dao.boardDaoTest" />
+      <option name="METHOD_NAME" value="list" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_practice" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54459" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.37" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="practice:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_practice_4" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54459" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="practice:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SelectOneExam" />
+      <item itemvalue="Application.SelectListExam" />
+      <item itemvalue="Application.SelectOneExam2" />
+      <item itemvalue="Application.SelectListExam02" />
+      <item itemvalue="JUnit.boardDaoTest.list" />
+      <item itemvalue="Tomcat Server.server" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.boardDaoTest.list" />
+        <item itemvalue="Application.SelectOneExam" />
+        <item itemvalue="Application.SelectOneExam2" />
+        <item itemvalue="Application.SelectListExam02" />
+        <item itemvalue="Application.SelectListExam" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="806156a5-df1f-4a84-acb2-549ba5e21ae8" name="Default Changelist" comment="" />
+      <created>1547538759063</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547538759063</updated>
+      <workItem from="1547538760320" duration="270000" />
+      <workItem from="1547539085614" duration="76000" />
+      <workItem from="1547539221521" duration="179000" />
+      <workItem from="1547540057776" duration="24260000" />
+      <workItem from="1547633023091" duration="2975000" />
+      <workItem from="1547688331396" duration="150000" />
+      <workItem from="1547688498199" duration="36000" />
+      <workItem from="1547688584036" duration="2423000" />
+      <workItem from="1547692579742" duration="2884000" />
+      <workItem from="1547706661744" duration="21000" />
+      <workItem from="1547706686049" duration="1000" />
+      <workItem from="1547707029047" duration="209000" />
+      <workItem from="1547707264894" duration="62000" />
+      <workItem from="1548051919448" duration="18000" />
+      <workItem from="1548124566529" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="boardDaoTest_list - 2019.01.16 at 19h 41m 18s.xml">
+      <configuration name="boardDaoTest.list" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="boardDaoTest_list - 2019.01.16 at 19h 42m 27s.xml">
+      <configuration name="boardDaoTest.list" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33596000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.47353363" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32786885" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43945578" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3989071" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32970026" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32786885" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.31433505" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32970026" />
+      <window_info anchor="bottom" id="Messages" order="1" weight="0.32786885" />
+      <window_info anchor="bottom" id="Java Enterprise" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32786885" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.3306011" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.3989071" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/exam/SelectOneExam2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/exam/SelectOneExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/exam/SelectListExam02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/delete.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/exam/SelectListExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/dto/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding>
+            <element signature="e#748#749#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#895#896#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#971#972#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1081#1082#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1150#1151#0" expanded="true" />
+            <element signature="e#1177#1178#0" expanded="true" />
+            <element signature="e#1217#1218#0" expanded="true" />
+            <element signature="e#1249#1250#0" expanded="true" />
+            <element signature="e#1281#1282#0" expanded="true" />
+            <element signature="e#1311#1312#0" expanded="true" />
+            <element signature="e#1355#1356#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
+            <element signature="e#1426#1427#0" expanded="true" />
+            <element signature="e#1458#1459#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+            <element signature="e#1547#1548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="43" column="8" selection-start-line="23" selection-end-line="43" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/dao/BoardDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/exam/TransactionExam.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/my/examples/jdbc/dao/boardDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/datasource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/service/BoardService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/dao/BoardDaoSQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/util/DBUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/dao/BoardDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/servlet/ListServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="34" column="40" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/servlet/DeleteServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/service/BoardServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/servlet/ReadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/view.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="16" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/servlet/WriteServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/writeForm.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/my/examples/jdbc/util/ConnectionContextHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>practice</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.protobuf:protobuf-java:3.6.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

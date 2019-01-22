@@ -10,20 +10,20 @@
 <div class="container">
     <form>
         <div class="form-group">
-            <label for="exampleInputID">ID 입력</label>
-            <input type="email" class="form-control" id="exampleInputID" placeholder="ID">
+            <label for="id">ID 입력</label>
+            <input type="email" class="form-control" id="id" placeholder="ID">
         </div>
         <div class="form-group">
-            <label for="exampleInputPassword">Password 입력</label>
-            <input type="password" class="form-control" id="exampleInputPassword" placeholder="Password">
+            <label for="pwd">Password 입력</label>
+            <input type="password" class="form-control" id="pwd" placeholder="Password">
         </div>
         <div class="form-group">
-            <label for="exampleInputTitle">글 제목</label>
-            <input type="text" class="form-control" id="exampleInputTitle" placeholder="title">
+            <label for="title">글 제목</label>
+            <input type="text" class="form-control" id="title" placeholder="title">
         </div>
         <div class="form-group">
-            <label for="exampleInputcontent">글 내용</label>
-            <textarea class="form-control" rows="5" id="exampleInputcontent" placeholder="contents"></textarea>
+            <label for="contents">글 내용</label>
+            <textarea class="form-control" rows="5" id="contents" placeholder="contents"></textarea>
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
         <button type="cancel" class="btn btn-default">Cancel</button>

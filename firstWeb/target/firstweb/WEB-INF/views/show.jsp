@@ -12,89 +12,30 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <html>
 <head>
-    <title>글 상세보기</title>
-    <style>
-        #container {
-            width: 70%;
-            margin: 0 auto;     /* 가로로 중앙에 배치 */
-            padding-top: 10%;   /* 테두리와 내용 사이의 패딩 여백 */
-        }
-
-        #list {
-            text-align: center;
-        }
-
-        #write {
-            text-align: right;
-        }
-
-        /* Bootstrap 수정 */
-        .table > thead {
-            background-color: #b3c6ff;
-        }
-        .table > thead > tr > th {
-            text-align: center;
-        }
-        .table-hover > tbody > tr:hover {
-            background-color: #e6ecff;
-        }
-        .table > tbody > tr > td {
-            text-align: center;
-        }
-        .table > tbody > tr > #title {
-            text-align: left;
-        }
-
-        div > #paging {
-            text-align: center;
-        }
-
-        .hit {
-            animation-name: blink;
-            animation-duration: 1.5s;
-            animation-timing-function: ease;
-            animation-iteration-count: infinite;
-            /* 위 속성들을 한 줄로 표기하기 */
-            /* -webkit-animation: blink 1.5s ease infinite; */
-        }
-
-        /* 애니메이션 지점 설정하기 */
-        /* 익스플로러 10 이상, 최신 모던 브라우저에서 지원 */
-        @keyframes blink {
-            from {color: white;}
-            30% {color: yellow;}
-            to {color: red; font-weight: bold;}
-            /* 0% {color:white;}
-            30% {color: yellow;}
-            100% {color:red; font-weight: bold;} */
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="/css/view.css" type="text/css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div>
-    <table border="1" style="width:600px" class="table table-striped table-bordered table-hover">
-    <caption>글 상세보기</caption>
-        <colgroup>
-            <col width='*%'/>
-        </colgroup>
-        <thead>
-                <tr>
-                    <td>${board.title}</td>
-                </tr>
-
-        </thead>
-        <tbody>
-        <tr>
-
-                <td> ${board.content}</td>
-        </tr>
-        </tbody>
-    </table>
+<div id = "container">
+    <div id = "view-top" class="page-header">
+        <div id = "view-title" class="col-md-6 col-xs-6">${board.title}</div>
+        <div id = "view-date" class="col-md-2 col-md-offset-2 col-xs-2 col-xs-offset-2">${board.regdate}</div>
+        <div id = "view-writer" class="col-md-2 col-xs-2">${board.name}</div>
+    </div>
+    <div id = "content">
+        ${board.content}
+    </div>
+    <div id = "view-bottom">
+        <button type="button" class="btn btn-default col-md-2 col-md-offset-6 col-xs-2 col-xs-offset-5" id = "btn-update" onClick="location.href='writeform.jsp'">수 정</button>
+        <button type="button" class="btn btn-default col-md-2 col-xs-2" id = "btn-delete"onClick="location.href='delete.html'" >삭 제</button>
+        <button type="button" class="btn btn-default col-md-2 col-xs-2" id = "btn-list" onClick="location.href='board.html'">목 록</button>
+    </div>
 </div>
-<div>
-<a href="/board/main">목록</a>
-    <a href="/board/main">목록</a>
-
 </div>
+
 </body>
 </html>

@@ -10,7 +10,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%><html>
 <head>
-<title>board1</title>
+<title>게시판</title>
         <style>
         #container {
             width: 70%;
@@ -69,9 +69,9 @@
     </style>
 </head>
 <body>
+<h1 style="text-align:center; margin-top:50px;">게시판 만들기 </h1>
 <div>
-<table border="1" style="width:600px" class="table table-striped table-bordered table-hover">
-    <caption>게시판</caption>
+<table border="1" style="width:600px; margin:auto;text-align:center;" class="table table-striped table-bordered table-hover">
     <colgroup>
         <col width='8%' />
         <col width='*%' />
@@ -87,7 +87,7 @@
         </tr>
     </thead>
     <tbody>
-        <c:forEach items="${requestScope.listview}" var="board">
+        <c:forEach items="${boards}" var="board">
            <tr>
             <td> ${board.id}</td>
                <td> <a href="/board/show?id=${board.id}">${board.title}</a></td>
@@ -98,10 +98,43 @@
     </tbody>
 </table>
 </div>
-
-<div>
-<a href="/board/formtag">글쓰기</a>
-<a href="/board/formtag">수정</a>
+<div class="text-center" style="width:50%; margin:0 auto; margin-top:50px;">
+    </br>
+    <ul class = "pagination">
+        <li><a href="#">«</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">6</a></li>
+        <li><a href="#">7</a></li>
+        <li><a href="#">8</a></li>
+        <li><a href="#">9</a></li>
+        <li><a href="#">10</a></li>
+        <li><a href="#">»</a></li>
+    </ul>
+</div>
+<div style="text-align:center;">
+<a class="btn btn-default" href="/board/formtag" id="" style="'width:15%; float:right; margin:auto;">글쓰기</a>
+    <a class="btn btn-default" href="/board/formtag" id=" " style="'width:15%; float:right; margin:auto;">수정</a>
+</div>
+<div class="box1" style="width:40%; margin:3% auto 10%;">
+    <div class="form-group" style="width:17%; margin-right:2%; float:left;">
+        <label class="sr-only" for="sop">sop</label>
+        <select name=sop class="form-control">
+            <option value=제목>제목</option>
+            <option value=내용>내용</option>
+            <option value=작성자>작성자</option>
+        </select>
+    </div>
+    <div class="form-group" style="width:60%; float:left;">
+        <label class="sr-only" for="stx">stx</label>
+        <input name=stx maxlength=15 size=10 itemname="검색어" required value='' class="form-control">
+    </div>
+    <div class="form-group" >
+        <button class="btn " style="float: right; width:17%;">검색</button>
+    </div>
 </div>
 </body>
 </html>
